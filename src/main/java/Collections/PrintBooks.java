@@ -20,19 +20,19 @@ public class PrintBooks {
             System.out.println(bookArray[i].doReadBook());
         }
 
-        System.out.println("------------");
-
         int index = 0;
         while (index < bookArray.length) {
             System.out.println("book " + bookArray[index].doReadBook());
             index++;
         }
 
-        System.out.println("------------");
+         index = 0;
         do {
             System.out.println("book " + bookArray[index].doReadBook());
             index++;
         } while (index < bookArray.length);
+
+
 
 
         System.out.println("----------------------");
